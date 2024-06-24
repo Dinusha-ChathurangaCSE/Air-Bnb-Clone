@@ -1,0 +1,130 @@
+*{
+  box-sizing: border-box;
+
+}
+
+body{
+  margin: 0;
+  background-color: #e5e5e5;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-container{
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.grey{
+  color:#918e9b;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+h2{
+  font-size: 0.75rem;/*= 12px, always use rem values, then when the browser font is resized, accordingly our font also changes*/
+  font-weight: normal;
+}
+
+
+nav{
+  /* width: 550px; */
+  padding: 20px 36px ;
+ 
+  box-shadow:0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  
+}
+
+.head-container{
+  background-color: white;
+  width: 550px;
+}
+
+.hero-container{
+  /* width:550px; */
+  display: flex;
+  flex-direction: column;
+ 
+  z-index: 0;
+
+}
+.hero-container img{
+  width: 395.91px;
+  height: 232px;
+  align-self: center;
+}
+
+section {
+  padding: 20px;
+}
+.hero-container h2{
+  margin-bottom: 16px;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 39.6px;
+}
+.hero-container p{
+  margin-top: 0;
+}
+
+.card1{
+  width: 175px;
+  background-color: white;
+  
+  font-size: 0.75rem;
+  flex: 0 0 auto;         /* ADD */
+  display: flex;          /* ADD */
+  flex-direction: column;
+  
+}
+.image{
+  width:176px;
+  height:235px;
+  border-radius: 9px;
+  margin-bottom: 9px;
+  /* position: relative; */
+}
+
+/* .card1 .soldout-img{
+  position:absolute;
+  top:0;
+  left: 0;
+  margin:10px;
+} */
+
+/* .img-container{
+  position: relative;
+} */
+
+.card-list{
+  display: flex;
+  gap:20px;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  width: 550px;
+  background-color: white;
+
+}
+
+
+/* .card-content{
+  display: flex; 
+  align-items: center;
+} */
+
+.card-price{
+  margin-top: auto;
+}
+.card-title {
+  overflow: hidden;
+  /* text-overflow: ellipsis; */
+  margin: 0;
+  font-size: 12px;
+}
+.star-img {
+  height: 14px;
+  margin: 0;
+}
