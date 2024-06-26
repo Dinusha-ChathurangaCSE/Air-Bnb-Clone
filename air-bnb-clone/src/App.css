@@ -73,7 +73,7 @@ section {
 .card1{
   width: 175px;
   background-color: white;
-  
+  position: relative;
   font-size: 0.75rem;
   flex: 0 0 auto;         /* ADD */
   display: flex;          /* ADD */
@@ -127,4 +127,14 @@ section {
 .star-img {
   height: 14px;
   margin: 0;
+}
+
+.card-badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
 }

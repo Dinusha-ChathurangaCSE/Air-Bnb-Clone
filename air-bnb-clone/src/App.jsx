@@ -9,12 +9,15 @@ import Data from "./data.js"
 
 function App() {
   const card = Data.map(post => <Card
-  img = {post.coverImg}
-  ratings = {post.stats.rating}
-  reviewCount = {post.stats.reviewCount}
-  title = {post.title}
-  country = {post.location}
-  price = {post.price}
+  key = {post.id}
+  {...post}
+  // img = {post.coverImg}
+  // ratings = {post.stats.rating}
+  // reviewCount = {post.stats.reviewCount}
+  // title = {post.title}
+  // country = {post.location}
+  // price = {post.price}
+  // openSpots = {post.openSpots}
   />)
 
   return (
